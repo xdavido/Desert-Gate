@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1751767029004155275}
   - component: {fileID: 6896086877136783522}
   - component: {fileID: 3451408985301843641}
+  - component: {fileID: 908685090704572130}
   m_Layer: 0
   m_Name: pCube48
   m_TagString: Untagged
@@ -83,6 +84,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &908685090704572130
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4048813195709517344}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3937115314576174600, guid: a426d0dbed8401a45bc9e5ba84b0dcd1, type: 3}
 --- !u!1 &7784790870375163149
 GameObject:
   m_ObjectHideFlags: 0
@@ -108,8 +123,8 @@ Transform:
   m_GameObject: {fileID: 7784790870375163149}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 130.67267, y: -0.0000038146973, z: -67.353294}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.5123938, y: 0.5123938, z: 0.5123938}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1751767029004155275}
   m_Father: {fileID: 0}

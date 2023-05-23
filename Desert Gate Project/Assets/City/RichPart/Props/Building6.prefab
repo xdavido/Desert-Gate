@@ -23,10 +23,10 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 412249390954221802}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 161.4, y: -0.0000019073486, z: -129.2}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.5123938, y: 0.5123938, z: 0.5123938}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 8488515741670885197}
   - {fileID: 7088410739609967654}
@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 8488515741670885197}
   - component: {fileID: 6695058594535758698}
   - component: {fileID: 5978565131400659543}
+  - component: {fileID: 7361957883749364526}
   m_Layer: 0
   m_Name: pCube17
   m_TagString: Untagged
@@ -118,6 +119,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7361957883749364526
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606397706221980727}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8659943070623925175, guid: a2968564ca63777419538ed6385bd08a, type: 3}
 --- !u!1 &984545201716813642
 GameObject:
   m_ObjectHideFlags: 0
