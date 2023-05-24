@@ -3243,6 +3243,18 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 27ebbfd52edb4f04ab335d926f4eb695, type: 2}
+    - target: {fileID: 3909384517071372736, guid: cea6533b20bf87944b7832e4ac876a68, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.8252397
+      objectReference: {fileID: 0}
+    - target: {fileID: 3909384517071372736, guid: cea6533b20bf87944b7832e4ac876a68, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.415647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3909384517071372736, guid: cea6533b20bf87944b7832e4ac876a68, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.3694362
+      objectReference: {fileID: 0}
     - target: {fileID: 5112635207710878061, guid: cea6533b20bf87944b7832e4ac876a68, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -4278,6 +4290,8 @@ MonoBehaviour:
   closeTrigger: 0
   doorOpen: DoorOpen
   doorClose: DoorClose
+  doorOpenRight: DoorOpenRight
+  doorCloseRight: DoorCloseRight
 --- !u!4 &1480134319 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 908f621114cc37849a273177d8844ec5, type: 3}
@@ -5016,6 +5030,8 @@ MonoBehaviour:
   closeTrigger: 0
   doorOpen: DoorOpen
   doorClose: DoorClose
+  doorOpenRight: DoorOpenRight
+  doorCloseRight: DoorCloseRight
 --- !u!1 &1622403244 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2147642314998828177, guid: c4376f74c7db2e042b97cfcb9e726cee, type: 3}
@@ -5235,6 +5251,8 @@ MonoBehaviour:
   closeTrigger: 1
   doorOpen: DoorOpen
   doorClose: DoorClose
+  doorOpenRight: DoorOpenRight
+  doorCloseRight: DoorCloseRight
 --- !u!1 &1686554634 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7878276592423628986, guid: b1981481514d7164896eaf5b34aba39f, type: 3}

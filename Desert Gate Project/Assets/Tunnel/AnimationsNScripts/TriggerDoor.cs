@@ -12,6 +12,9 @@ public class TriggerDoor : MonoBehaviour
     [SerializeField] private string doorOpen = "DoorOpen";
     [SerializeField] private string doorClose = "DoorClose";
 
+    [SerializeField] private string doorOpenRight = "DoorOpenRight";
+    [SerializeField] private string doorCloseRight = "DoorCloseRight";
+
     private void OnTriggerEnter(Collider other)
     {
         if(openTrigger)
