@@ -5,6 +5,7 @@ using UnityEngine;
 public class TriggerDoor : MonoBehaviour
 {
     [SerializeField] private Animator DoorLeft = null;
+    [SerializeField] private Animator DoorRight = null;
 
     [SerializeField] private bool openTrigger = false;
     [SerializeField] private bool closeTrigger = false;
@@ -20,11 +21,13 @@ public class TriggerDoor : MonoBehaviour
         if(openTrigger)
         {
             DoorLeft.Play("DoorOpen", 0, 0.0f);
+            DoorRight.Play("DoorOpenRight", 0, 0.0f);
             gameObject.SetActive(false);
         }
         else if (closeTrigger)
         {
             DoorLeft.Play("DoorClose", 0, 0.0f);
+            DoorRight.Play("DoorCloseRight", 0, 0.0f);
             gameObject.SetActive(false);
         }
     }
