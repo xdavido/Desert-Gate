@@ -80,7 +80,7 @@ Material:
     - _EmissionEnabled: 1
     - _FlipbookMode: 0
     - _GlossMapScale: 1
-    - _Glossiness: 1
+    - _Glossiness: 0
     - _GlossyReflections: 1
     - _LightingEnabled: 1
     - _Metallic: 0
@@ -89,7 +89,7 @@ Material:
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SoftParticlesEnabled: 1
-    - _SoftParticlesFarFadeDistance: 2
+    - _SoftParticlesFarFadeDistance: 0.71
     - _SoftParticlesNearFadeDistance: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 5
@@ -100,5 +100,5 @@ Material:
     - _Color: {r: 1, g: 0.83043927, b: 0.495283, a: 1}
     - _ColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0.11320752, g: 0.11267352, b: 0.11267352, a: 1}
-    - _SoftParticleFadeParams: {r: 0, g: 0.5, b: 0, a: 0}
+    - _SoftParticleFadeParams: {r: 0, g: 1.4084507, b: 0, a: 0}
   m_BuildTextureStacks: []
