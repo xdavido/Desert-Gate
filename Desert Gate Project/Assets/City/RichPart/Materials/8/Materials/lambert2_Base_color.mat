@@ -14,9 +14,8 @@ Material:
   - _METALLICGLOSSMAP
   - _NORMALMAP
   - _PARALLAXMAP
-  - _SPECGLOSSMAP
   m_InvalidKeywords: []
-  m_LightmapFlags: 2
+  m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -62,12 +61,12 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
-        m_Texture: {fileID: 2800000, guid: ce398f02879fd0b428f51d595ab2cdd7, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BumpScale: 3
+    - _BumpScale: 2
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0

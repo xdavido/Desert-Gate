@@ -13,7 +13,6 @@ Material:
   - _EMISSION
   - _METALLICGLOSSMAP
   - _NORMALMAP
-  - _SPECGLOSSMAP
   m_InvalidKeywords: []
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
@@ -61,7 +60,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
-        m_Texture: {fileID: 2800000, guid: 90fb8e5b727c90c4fbf14d5a89da95f4, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
@@ -71,7 +70,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 0.839
-    - _Glossiness: 0.5
+    - _Glossiness: 0.028
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
